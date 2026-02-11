@@ -1,154 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Espresso Banana Bread</title>
-<style>
-    body {
-        font-family: "Helvetica Neue", Arial, sans-serif;
-        background-color: #f4efe6;
-        color: #222;
-        max-width: 900px;
-        margin: 60px auto;
-        line-height: 1.6;
-    }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>High Protein Brownie (Parsed Recipe)</title>
 
-    h1 {
-        text-align: center;
-        letter-spacing: 8px;
-        font-weight: 300;
-        margin-bottom: 40px;
+  <!-- Optional: Schema.org JSON-LD for machine readability -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "High Protein Brownie",
+    "recipeYield": "6 servings",
+    "totalTime": "PT30M",
+    "cookTime": "PT20M",
+    "recipeIngredient": [
+      "50 g (oat) flour",
+      "30 g ground almonds",
+      "30 g (choco) protein powder",
+      "10 g baking powder",
+      "40 g cocoa",
+      "120 ml milk (any)",
+      "2 eggs",
+      "100 g banana",
+      "60 g chocolate chips",
+      "Optional: nuts on top"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step I",
+        "text": "Prepare the flour by adding both oats as well as almonds (or use ground almonds) in a mixer. Add into a bowl and mix the flour with baking powder, cocoa and protein powder."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step II",
+        "text": "In a separate bowl mix milk and eggs. Smash the banana and add to the mixture. Mix well until you get a smooth consistency."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step III",
+        "text": "Now mix the fluid with dry ingredients until you get a smooth batter. Put aside for 5 minutes. Then fold in the chocolate chips."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step IV",
+        "text": "Add the dough into a baking pan and bake for 20 minutes at 180°C. Let the brownies cool down for a few minutes before cutting them into 6 big pieces."
+      }
+    ],
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "carbohydrateContent": "17 g",
+      "proteinContent": "13 g",
+      "fatContent": "10 g",
+      "calories": "210 cal"
     }
+  }
+  </script>
 
-    h2 {
-        text-align: center;
-        letter-spacing: 4px;
-        font-weight: 400;
-        margin-top: 60px;
-    }
-
-    .columns {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
-    }
-
-    .column {
-        width: 45%;
-    }
-
-    .divider {
-        border-top: 1px solid #bbb;
-        margin: 40px 0;
-    }
-
-    .meta {
-        text-align: center;
-        margin-top: 30px;
-        font-size: 0.95em;
-        color: #555;
-    }
-
-    .steps {
-        margin-top: 40px;
-    }
-
-    .step {
-        width: 45%;
-        margin-bottom: 40px;
-    }
-
-    .steps-grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .step h3 {
-        letter-spacing: 3px;
-        font-weight: 400;
-    }
-</style>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; margin: 24px; color: #111; }
+    main { max-width: 900px; margin: 0 auto; }
+    h1 { margin: 0 0 8px 0; }
+    .meta { margin: 0 0 18px 0; color: #333; }
+    section { margin: 20px 0; padding-top: 6px; border-top: 1px solid #ddd; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+    th { width: 40%; }
+    code { background: #f6f6f6; padding: 2px 6px; border-radius: 4px; }
+  </style>
 </head>
+
 <body>
+<main>
+  <header>
+    <h1>HIGH PROTEIN BROWNIE</h1>
+    <p class="meta">
+      <strong>Time:</strong> 30 minutes &nbsp;|&nbsp;
+      <strong>Calories:</strong> 210 cal &nbsp;|&nbsp;
+      <strong>Serving:</strong> 6 &nbsp;|&nbsp;
+      <strong>Other:</strong> High Protein
+    </p>
+  </header>
 
-<h1>ESPRESSO BANANA BREAD</h1>
+  <section aria-labelledby="ingredients">
+    <h2 id="ingredients">Ingredients</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredient</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>(Oat) Flour</td><td>50 g</td></tr>
+        <tr><td>Ground Almonds</td><td>30 g</td></tr>
+        <tr><td>(Choco) Protein Powder</td><td>30 g</td></tr>
+        <tr><td>Baking Powder</td><td>10 g</td></tr>
+        <tr><td>Cocoa</td><td>40 g</td></tr>
+        <tr><td>Milk (any)</td><td>120 ml</td></tr>
+        <tr><td>Eggs</td><td>2</td></tr>
+        <tr><td>Banana</td><td>100 g</td></tr>
+        <tr><td>Chocolate chips</td><td>60 g</td></tr>
+        <tr><td>Optional: Nuts on Top</td><td>(optional)</td></tr>
+      </tbody>
+    </table>
+  </section>
 
-<div class="columns">
+  <section aria-labelledby="macros">
+    <h2 id="macros">Macros</h2>
+    <p><strong>Carbs:</strong> 17 g &nbsp;//&nbsp; <strong>Protein:</strong> 13 g &nbsp;//&nbsp; <strong>Fat:</strong> 10 g</p>
+  </section>
 
-    <div class="column">
-        <h2>INGREDIENTS</h2>
-
-        <p><strong>Flour Mix</strong> — 200g<br>
-        (100g Flour / 100g Oat Flour)</p>
-
-        <p>Banana — 300g<br>
-        Coffee — 150ml<br>
-        Coconut Oil — 50g<br>
-        Cinnamon — 1/2 tsp<br>
-        Baking Powder — 2 tsp<br>
-        Nuts — 50g<br>
-        Chocolate drops — 50g</p>
-    </div>
-
-    <div class="column">
-        <h2>MACROS</h2>
-
-        <p>Carbs — 30g<br>
-        Protein — 6g<br>
-        Fat — 14g</p>
-
-        <div class="meta">
-            Time — 60 minutes<br>
-            Calories — 270 cal<br>
-            Serving — 2<br>
-            Other — Vegan
-        </div>
-    </div>
-
-</div>
-
-<div class="divider"></div>
-
-<h2>DIRECTIONS</h2>
-
-<div class="steps-grid">
-
-    <div class="step">
-        <h3>STEP I</h3>
-        <p>
-        If you use oat flour, add 100g oats into a food processor and mix until you get a floury consistency.
-        Mix regular flour & oat flour in a big bowl, add 2 tsp baking powder and 1/2 tsp cinnamon.
-        </p>
-    </div>
-
-    <div class="step">
-        <h3>STEP II</h3>
-        <p>
-        Mix 50g fluid coconut oil together with 150ml black coffee.
-        Add the bananas in a big bowl and mash until smooth.
-        Mix the coffee into the banana mash.
-        </p>
-    </div>
-
-    <div class="step">
-        <h3>STEP III</h3>
-        <p>
-        Mix the liquid banana mass with the flour and let the batter stand for 5 minutes.
-        Preheat the oven to 180 degrees in the meantime.
-        </p>
-    </div>
-
-    <div class="step">
-        <h3>STEP IV</h3>
-        <p>
-        Fold in 50g chopped nuts & chocolate drops into the dough.
-        Add into a loaf pan and bake for 45–50 minutes.
-        You will get roughly 7 big slices of banana bread.
-        </p>
-    </div>
-
-</div>
-
+  <section aria-labelledby="directions">
+    <h2 id="directions">Directions</h2>
+    <ol>
+      <li>
+        <strong>Step I</strong><br />
+        Prepare the flour by adding both oats as well as almonds (or use ground almonds) in a mixer.
+        Add into a bowl and mix the flour with baking powder, cocoa and protein powder.
+      </li>
+      <li>
+        <strong>Step II</strong><br />
+        In a separate bowl mix milk and eggs. Smash the banana and add to the mixture.
+        Mix well until you get a smooth consistency.
+      </li>
+      <li>
+        <strong>Step III</strong><br />
+        Now mix the fluid with dry ingredients until you get a smooth batter. Put aside for 5 minutes.
+        Then fold in the chocolate chips.
+      </li>
+      <li>
+        <strong>Step IV</strong><br />
+        Add the dough into a baking pan and bake for 20 minutes at <code>180°C</code>.
+        Let the brownies cool down for a few minutes before cutting them into 6 big pieces.
+      </li>
+    </ol>
+  </section>
+</main>
 </body>
 </html>
